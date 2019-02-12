@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package domes;
 
 import java.io.BufferedReader;
@@ -20,19 +16,16 @@ import java.util.Scanner;
 
 /**
  *
- * @author hroni
+ * @author Christos Chronis
  */
-public class Domes {
-    
-    /**
-     * @param args the command line arguments
-     */
+public class Domes {    
+
     public static void main(String[] args) throws FileNotFoundException, UnsupportedEncodingException {
         System.out.println("Programm started");
         
         Scanner userinp = new Scanner(System.in);
         
-        // TODO code application logic here
+
         double w = 1280;
         double h = 720;
         double T = 72;    
@@ -150,7 +143,7 @@ public class Domes {
                 }
             }
           
-            // apply temperature and frame restrictions
+            // Apply temperature and frame restrictions
             for(Node v: nodes){
                 v.setDispx(Math.max(Math.min(v.getDispx(),T),-T));
                 v.setDispy(Math.max(Math.min(v.getDispy(),T),-T));
