@@ -43,8 +43,7 @@ The program automatically creates a output.dot file.
 
 ---
 ## Create a pdf with your graph
-Dependientes
-* GraphViz
+
 Just execute the make_pdf.sh shellscript.
 
 You should have installed the GraphViz platform.
