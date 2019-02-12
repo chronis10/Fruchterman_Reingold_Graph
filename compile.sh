@@ -1,4 +1,4 @@
 #!/bin/bash
-mkdir domes
+mkdir Fruchterman_Reingold
 javac -d .  *.java
 echo 'Compile completed'
