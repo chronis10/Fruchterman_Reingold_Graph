@@ -1,0 +1,8 @@
+c Input Graph
+c
+p edge 6 5
+e 1 2
+e 2 3
+e 2 4
+e 5 1
+e 6 1
