@@ -1,3 +1,3 @@
 #!/bin/bash
 
-fdp output.dot -Tpdf -o small.pdf
+fdp output.dot -Tpdf -o graph.pdf
