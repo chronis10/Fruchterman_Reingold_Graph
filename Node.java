@@ -61,10 +61,9 @@ public class Node {
     }
     
     public void printall() {        
-        //System.out.println(this.posx);
-       // System.out.println(this.posy);
+
         System.out.print("["+this.posx+","+this.posy+"]");
-        //System.out.println(this.dispy);
+
     }
     
     
