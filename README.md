@@ -1,6 +1,7 @@
 Instructions
 ===
-
+##Dependities
+* GraphViz
 ## For compile 
 
 To compile the code just execute the compile.sh shellscript
