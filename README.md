@@ -1,5 +1,5 @@
 # Description
-A simple java project for Fruchterman Reingold Graph using an input file with nodes properties.
+A simple java project for Fruchterman Reingold algorithm using an input file with nodes properties.
 
 Instructions
 ===
